@@ -1,2 +1,2 @@
-# cook-day
+# cook
 网站
