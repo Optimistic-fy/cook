@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(images/bg-body.gif) repeat;
+	font-family: 'PT Serif Caption', serif;
+	font-size:14px;
+	line-height:24px;
+	color: #343434;
+	text-transform: uppercase;
+}
+li{
+	list-style: none;
+}
+h2,h3,h4,h5,h6{
+	font-family: 'PT Serif Caption', serif;
+	font-weight: normal;
+	color:  #343434;
+}
+h3{
+	font-size: 35px;
+	line-height: 38px;
+	text-shadow: 0 1px 2px #c5c2a9;
+	padding: 33px 0 18px;
+}
+h4{
+	font-size: 20px;
+	line-height: 28px;
+	display: block;
+	color: #d53827;
+}
+span,a{
+	color: #d53827;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-weight: normal;
+	padding-bottom: 18px;
+	text-shadow: 0 1px 2px #c5c2a9;
+}
+.line-top{
+	height: 7px;
+	background: url(images/line-top.gif) repeat-x 0 0; 
+}
+.main{
+	width: 940px;
+	height: 124px;
+	margin: 0 auto;
+}
+.main .row-top{
+	position: relative;
+	padding:  21px 0 14px;
+}
+.main .row-top nav{
+	display: block;
+	padding: 18px 0 0 0;
+	float: right;
+}
+.main .row-top nav ul{
+	width: 590px;
+	height: 62px;
+}
+.main .row-top nav ul li.active a,.main .row-top nav ul li a:hover{
+	color: #d53827;
+	-webkit-box-shadow: inset 0 2px 10px #c5c2a9;
+	box-shadow: inset 0 2px 10px #c5c2a9;
+	border-radius: 5px;
+}
+.main .row-top nav ul li a:hover .none{
+	display: block;
+}
+.main .row-top nav ul li a{
+	position: relative;
+	display: block;
+	text-transform: uppercase;
+	top: 0px;
+	left:10px ;
+	padding: 10px 12px;
+	float: left;
+	text-decoration: none;
+	margin: 4px 5px;
+	color: #343434;
+}
+/*-----------content------------------*/
+.line{
+	background: url(images/border-horiz.gif) repeat-x 0 0;
+	height: 2px;
+}
+.content{
+	position: relative;
+	width: 960px;
+	height: 890px;
+	margin: 20px auto 0px auto
+}
+.content .left-side{
+	position: absolute;
+	left: -35px;
+	width: 335px;
+	background: #fff;
+	border-radius: 20px;
+}
+.content .left-side .posit{
+	height: 837px;
+	width: 256px;
+	padding: 0 9px 0 55px;
+}
+.content .left-side .posit h3 strong{
+	font-family: 'Segoe Script', serif;
+	font-weight: normal;
+	color: #d53827;
+	padding-right: 10px;
+}
+.content .left-side .posit h3 em{
+	color: #999;
+	font-size: 20px;
+	line-height: 24px;
+	display: block;
+	font-style: normal;
+}
+.content .left-side .posit .choose{
+	width: 270px;
+	height: 682px;
+	padding-top: 10px;
+}
+.content .left-side .posit .choose li{
+	padding-bottom: 30px;
+}
+.content .left-side .posit .wrap{
+	padding-bottom: 10px;
+}
+.content .left-side .posit .wrap .figure{
+	font-family: 'Segoe Script', serif;
+	float: left;
+	color: #fff;
+	font-size: 45px;
+	line-height: 48px;
+	width: 54px;
+	height: 54px;
+	background: #000;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 10px;
+}
+.content .left-side .posit .wrap h4{
+	color: #343434;
+}
+.content .left-side .posit p{
+	padding-bottom: 18px;
+	letter-spacing: 1px;
+}
+.content .left-side .btn{
+	display: inline-block;
+	width: 116px;
+	height: 41px;
+	color: #fff;
+	background: #db3222;
+	text-align: center;
+	line-height: 38px;
+}
+.content .left-side .btn:hover{
+	background: #343434;
+	transition: all .3s ease;
+}
+.content .right-side{
+	position: absolute;
+	left: 340px;
+	width: 610px;
+	height: 937px;
+}
+.content .right-side h3{
+	position: absolute;
+	padding-top: 10px;
+	z-index: 1px;
+}
+.content .right-side .vegetable{
+	position: absolute;
+	left: 0px;
+	top: 57px;
+	width: 620px;
+	height: 780px;
+}
+.content .right-side .vegetable .pice{
+	display: inline-block;
+	padding-bottom: 15px;
+}
+.content .right-side .vegetable .pic{
+	float: left;
+}
+.content .right-side .vegetable .pic img{
+	border: 10px solid #fff;
+	border-radius: 20px; 
+}
+.content .right-side .vegetable .words{
+	width: 310px;
+	height: 228px;
+	float: right;
+	padding: 10px 0 0 20px;
+}
+/*--------------footer--------------------*/
+.foote{
+	width: 940px;
+	height: 86px;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+.foote .foot-logo{
+	padding: 0 0 0 73px;
+}
+.foote .foot-logo li{
+	float: left;
+	padding: 0 9px 0 0; 
+}
+.foote .foot-logo li a{
+	display: block;
+}
+.foote .foot-logo li a img:hover{
+	opacity: 0.6;
+}
+.foote .policy{
+	display: block;
+	float: right;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 90px 0 0; 
+}
+.foote .policy a:hover{
+	text-decoration: underline;
+}
